@@ -41,7 +41,7 @@ class HamlishExtension(Extension):
             ext = os.path.splitext(filename)[1]
         elif name != None:
             ext = os.path.splitext(name)[1]
-        else
+        else:
             ext = None
 
         if ext not in self.environment.hamlish_file_extensions:
